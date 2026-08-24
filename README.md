@@ -23,6 +23,11 @@ Este proyecto se encuentra actualmente en **fase de desarrollo y calibración ac
   * [ ] Comparativa directa entre perfiles de audio humano y sintético en la interfaz.
 
 ---
+## 📸 Vista Previa de la Aplicación
+
+![Demostración de la Interfaz](assets/preview.png)
+
+![Demostración de métricas](assets/preview1.png)
 
 ## 🚀 Características Principales
 
