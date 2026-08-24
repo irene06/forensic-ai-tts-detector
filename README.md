@@ -3,10 +3,24 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
 [![Librosa](https://img.shields.io/badge/Librosa-Audio%20Analysis-orange.svg)](https://librosa.org/)
+[![Status](https://img.shields.io/badge/Status-En%20Desarrollo%20%2F%20Fase%20Beta-yellow.svg)](#)
 
 Aplicación web interactiva para el análisis acústico-forense y la detección preliminar de muestras de voz sintética (Text-to-Speech / Clonación con Inteligencia Artificial).
 
 El sistema procesa la señal de audio en busca de discontinuidades espectrales, anomalías en la frecuencia fundamental ($F_0$), micro-variaciones timbrales (MFCC) y artefactos característicos de vocoders neurales.
+
+---
+
+## 🚧 Estado del Proyecto y Mejoras en Proceso (Roadmap)
+
+Este proyecto se encuentra actualmente en **fase de desarrollo y calibración activa (Beta)**.
+
+* **Fase Actual (V1 - Heurística basada en DSP):** Implementación de análisis acústico estático con Librosa (Pitch, MFCC, RMS, Energía Espectral).
+* **Calibración en Proceso:** Se está trabajando en el ajuste de umbrales para reducir los **falsos positivos** generados por voces humanas monótonas, compresión de micrófonos integrados o algoritmos de cancelación de ruido.
+* **Próximas Actualizaciones (V2 - Aprendizaje Automático):**
+  * [ ] Entrenamiento e integración de un clasificador de Machine Learning / Deep Learning (ej. *ASVspoof / AASIST*).
+  * [ ] Soporte para análisis batch de múltiples archivos de audio.
+  * [ ] Comparativa directa entre perfiles de audio humano y sintético en la interfaz.
 
 ---
 
@@ -34,7 +48,7 @@ El sistema procesa la señal de audio en busca de discontinuidades espectrales, 
 ## 📦 Instalación
 
 1. **Clonar el repositorio:**  
-   `git clone [https://github.com/irene06/forensic-ai-tts-detector.git](https://github.com/irene06/forensic-ai-tts-detector.git)`  
+   `git clone https://github.com/irene06/forensic-ai-tts-detector.git`  
    `cd forensic-ai-tts-detector`
 
 2. **Crear y activar entorno virtual:**  
