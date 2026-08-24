@@ -33,31 +33,35 @@ El sistema procesa la señal de audio en busca de discontinuidades espectrales, 
 
 ## 📦 Instalación
 
-1. Clonar el repositorio:
-`git clone https://github.com/irene06/forensic-ai-tts-detector.git`
-`cd forensic-ai-tts-detector`
+1. **Clonar el repositorio:**  
+   `git clone [https://github.com/irene06/forensic-ai-tts-detector.git](https://github.com/irene06/forensic-ai-tts-detector.git)`  
+   `cd forensic-ai-tts-detector`
 
-2. Crear y activar entorno virtual:
-`python -m venv venv`
-`venv\Scripts\activate`
+2. **Crear y activar entorno virtual:**  
+   `python -m venv venv`  
+   `venv\Scripts\activate`
 
-3. Instalar dependencias:
-`pip install streamlit librosa numpy matplotlib reportlab`
+3. **Instalar dependencias:**  
+   `pip install streamlit librosa numpy matplotlib reportlab`
 
 ---
 
 ## ⚡ Uso
 
-Inicia la aplicación ejecutando:
+Inicia la aplicación ejecutando el siguiente comando en tu terminal:
 
-```bash
-streamlit run app.py
+`streamlit run app.py`
 
-Estructura del proyecto
+---
 
-├── app.py           # Interfaz de usuario con Streamlit
-├── analizador.py    # Algoritmo forense y generación de reportes
-└── README.md        # Documentación
+## 📁 Estructura del Proyecto
 
-⚠️ Exención de Responsabilidad
+* **app.py** — Interfaz de usuario con Streamlit
+* **analizador.py** — Algoritmo forense y generación de reportes
+* **README.md** — Documentación del proyecto
+
+---
+
+## ⚠️ Exención de Responsabilidad
+
 Prototipo educativo y de demostración analítica basado en procesamiento de señales estático. No debe utilizarse como evidencia para peritajes judiciales formales.
